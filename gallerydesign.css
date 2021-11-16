@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding: 0.5em;
+    /* background-color: cyan; */
+    background-image: url("./images/b-1.jpg");
+    background-blend-mode: lighten;
+    color: black;
+    font-family: sans-serif;
+}
+
+img {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 28%;
+    scale: 1.05;
+    /* margin: 1.6666666%; */
+    margin: calc(10%/6);
+}
+
+nav {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1em;
+    text-transform: uppercase;
+    border-bottom: 2px solid #f1f1f1;
+    width: 30%;
+    margin-left: calc(10%/6);
+    padding: 1.2em 0;
+}
+
+button {
+    background: none;
+    color:#ffa260;
+    border: 2px solid;
+    padding: 1em 2em;
+    font-size: 1em;
+    transition: color 0.25s, border-color 0.25s, box-shadow 0.25s,transform 0.25s;
+}
+  
+button:hover {
+    border-color: #f1ff5c;
+    color: white;
+    box-shadow: 0 0.5em 0.5em -0.4em #f1ff5c;
+    transform: translateY(-0.25em);
+    cursor: pointer;
+}
+
+/* 30 + 30 + 30
+
+10% */
